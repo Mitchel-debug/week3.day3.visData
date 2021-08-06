@@ -1,0 +1,65 @@
+
+#h2tag{
+    position: absolute;
+    text-align: center;
+    background-color: transparent;
+}
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 99%;
+    background-color: rgb(203, 221, 173);
+
+}
+#containerDiv {
+    margin-top: 40px;
+    display: flex;
+    background-color: rgb(203, 221, 173);
+    width: 100%;
+    height: fit-content;
+    padding: 5%;
+    flex-wrap: wrap;
+}
+.characterSheet {
+    color: black;
+    background-color: rgb(43,180,234);
+    border: 1vw solid rgb(254,226,102);
+    border-radius: 1%;
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+}
+
+.imageDiv {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.characterSheet img {
+    width:100%;
+    justify-content: center;
+    border: black 5px solid;
+    border-radius: 2vw;
+    margin: 5%;
+}
+
+.topText {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.description {
+    width: 80%;
+    text-align: left;
+}
